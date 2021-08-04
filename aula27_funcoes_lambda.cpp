@@ -12,6 +12,7 @@ int main() {
     //     return (n1 > n2) ? n1 : n2;
     // };
 
+
     int x1, x2, x3, x4;
     x1 = 23;
     x2 = 53;
@@ -24,6 +25,7 @@ int main() {
 
     cout << "Soma: " << soma() << endl;
 
+
     // auto maior = [](vector<int>n)->int {
     //     auto m = 0;
     //     for (int x:n) {
@@ -35,6 +37,8 @@ int main() {
 
     // cout << "Maior: " << maior({5, 8, 98, 64 ,45 ,9 ,8 , 5,87 ,6}) << endl;
     
+
+    // Captura todas as variaveis do escopo e os valores passados como parametros
     auto maior = [=](vector<int>n)->int {
         auto m = 0;
         for (int x:n) {
