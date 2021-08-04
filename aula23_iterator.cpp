@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 
-    // system("clear");
+    system("clear");
 
     vector <string> produtos = {"Mouse", "Teclado", "Monitor", "Gabinete", "Cx.Som"};
 
